@@ -3,6 +3,9 @@ EXPO +  Firebase Authentication + Firebase Realtime DB + React Navigation 5.x
 
 This is just bare minimum boiler plate without anything extra added to it. 
 
+
+![Demo](https://raw.githubusercontent.com/kaushikdas0/boilerplate_expo_firebase_email_password_authentication/master/assets/images/screencast%202020-04-10%2012-21-18.gif)
+
 ## Installation
 
 ### This assumes 
