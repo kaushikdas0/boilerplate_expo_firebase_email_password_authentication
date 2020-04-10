@@ -42,14 +42,14 @@ export default function App(props) {
         //Load Firebase
         // Initialize Firebase
         const firebaseConfig = {
-          apiKey: "AIzaSyALKr0IcmMLLMZiKHZNWkYV1svzpe21-Vw",
-          authDomain: "chat-13dc9.firebaseapp.com",
-          databaseURL: "https://chat-13dc9.firebaseio.com",
-          projectId: "chat-13dc9",
-          storageBucket: "chat-13dc9.appspot.com",
-          messagingSenderId: "1093992619157",
-          appId: "1:1093992619157:web:612d469a1ab73ca7730f9c",
-          measurementId: "G-TXQWXWV1Q3"
+          apiKey: "XXX",
+          authDomain: "XXX",
+          databaseURL: "XXX",
+          projectId: "XXX",
+          storageBucket: "XXX",
+          messagingSenderId: "XXX",
+          appId: "XXX",
+          measurementId: "XXX"
         };
 
         firebase.initializeApp(firebaseConfig);
@@ -76,7 +76,7 @@ export default function App(props) {
         {Platform.OS === 'ios' && <StatusBar barStyle="default" />}
         <NavigationContainer>
           <AuthStateNavigator />
-      </NavigationContainer>
+        </NavigationContainer>
       </View>
     );
   }

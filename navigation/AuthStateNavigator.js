@@ -20,7 +20,7 @@ export default class AuthStateNavigator extends React.Component {
     }
 
     componentDidMount() {
-         firebase.auth().onAuthStateChanged(user => {
+        firebase.auth().onAuthStateChanged(user => {
             if (user) {
                 this.setState({
                     authenticated: true,

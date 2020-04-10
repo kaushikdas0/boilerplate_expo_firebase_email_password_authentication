@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image, Platform, StyleSheet, Text, TouchableOpacity, View, Dimensions,TextInput,Button } from 'react-native';
+import { Image, Platform, StyleSheet, Text, TouchableOpacity, View, Dimensions, TextInput, Button } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import * as firebase from 'firebase';
 
@@ -18,16 +18,12 @@ export default class Login extends React.Component {
         try {
             firebase.auth().signInWithEmailAndPassword(email, password).then(user => {
                 console.log(user)
-               
+
             });
         } catch (error) {
             console.log(error.toString(error))
         }
     }
-
-
-    
-
 
     render() {
         const { navigate } = this.props.navigation;

@@ -16,7 +16,6 @@ export default class Register extends React.Component {
         };
     }
 
-
     SignUp = (email, password) => {
         console.log("signup is called")
         try {
@@ -45,7 +44,7 @@ export default class Register extends React.Component {
         firebase.auth().onAuthStateChanged(function (user) {
             if (user) {
                 console.log("Observer is called and logged in")
-                
+
             } else {
                 console.log("Observer is called and not logged in")
             }
