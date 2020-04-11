@@ -30,6 +30,7 @@ export default class AuthStateNavigator extends React.Component {
             } else {
                 console.log("fb auth oserver y")
                 this.setState({
+                    authenticated: false,
                     loading: false
                 })
             }
