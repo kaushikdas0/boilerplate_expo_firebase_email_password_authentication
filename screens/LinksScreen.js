@@ -25,6 +25,13 @@ export default function LinksScreen() {
         onPress={() => WebBrowser.openBrowserAsync('https://forums.expo.io')}
         isLastOption
       />
+          
+      <OptionButton
+        icon="ios-chatboxes"
+        label="Logout"
+        onPress={() => console.log("Call FB logout method here")}
+        isLastOption
+      />
     </ScrollView>
   );
 }
